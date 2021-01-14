@@ -5,6 +5,10 @@ import Outdoor from './components/Outdoor';
 import Services from './components/Services';
 import Collection from './components/Collection';
 import Gallery from './components/Gallery';
+import Latestnews from './components/Latestnews';
+import Newscard from './components/Newscard';
+import Imagecard from './components/Imagecard';
+import VR from './components/VR';
 
 function App() {
   var [results, setResult] = useState([])
@@ -21,13 +25,21 @@ function App() {
   
 	return (
     <div className="App">
-      <div className="twocolumn">
+      <div className="threecolumn">
         <Travel result={results}/>
         <Outdoor result={results}/>
       </div>
       <Services results={results}/>
       <Collection results={results}/>
-      <Gallery results={results}/>
+      <div className="bigGrid">
+        <Gallery results={results}/>
+        <Latestnews results={results}/>
+        <Newscard results={results}/>
+        <Imagecard results={results}/>
+        <VR result={results}/>
+      </div>
+      
+    
     </div>
   )
 }

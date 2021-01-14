@@ -13,9 +13,17 @@ img{
   background-color: rgb(187, 187, 187);
   padding: 1em;
 }
-.twocolumn {
+.threecolumn {
   margin: 1em 2.5em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
+}
+
+.bigGrid {
+  margin: 1em 2.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   grid-gap: 1.5em;
 }
