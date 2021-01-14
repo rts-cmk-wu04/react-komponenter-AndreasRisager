@@ -1,0 +1,29 @@
+.travel {
+    display: flex;
+    flex-direction: column;
+    max-width: 372px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.travel div {
+    padding: 1.5em 2em 2em;
+}
+.travel img {
+    border-radius: 10px 10px 0 0;
+}
+.travel span {
+    color: blue;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+}
+.travel h1 {
+    color: #303336;
+    font-size: 1.9em;
+    padding: 0.2em 0 0.5em;
+}
+.travel p {
+    color: #7B8591;
+}

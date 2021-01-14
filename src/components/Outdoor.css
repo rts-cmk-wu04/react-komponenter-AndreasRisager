@@ -1,0 +1,48 @@
+.outdoor {
+    grid-column: 2/4;
+    max-width: 771px;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 2em;
+}
+.outdoor .bigImg {
+    margin-right: 2em;
+    border-radius: 10px;
+}
+.outdoor .content {
+    display: flex;
+    flex-direction: column;
+}
+.outdoor button {
+    align-self: flex-end;
+    background-color: #005AEE;
+    border: none;
+    border-radius: 15px;
+    padding: 1em 1.8em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.outdoor h1 {
+    text-transform: capitalize;
+    color: #303336;
+    font-size: 2.5em;
+    padding: 0.33em 0;
+    word-spacing: 100vw;
+}
+.outdoor p {
+    color: #7B8591;
+    padding: 0 2.7em 2em 0;
+}
+
+.smallImgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+.smallImgs img {
+    border-radius: 10px;
+}

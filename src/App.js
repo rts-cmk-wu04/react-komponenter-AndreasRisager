@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from "react";
+import Travel from './components/Travel';
+import Outdoor from './components/Outdoor';
+import Services from './components/Services';
+import Collection from './components/Collection';
+import Gallery from './components/Gallery';
 
 function App() {
-  return (
+  var [results, setResult] = useState([])
+
+  useEffect(function() {
+    fetch("./data.json")
+    .then(function(response){
+      return response.json();
+    })
+    .then(function(data){
+      setResult(data)
+    })
+  }, [])
+  
+	return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="twocolumn">
+        <Travel result={results}/>
+        <Outdoor result={results}/>
+      </div>
+      <Services results={results}/>
+      <Collection results={results}/>
+      <Gallery results={results}/>
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,0 +1,42 @@
+.collections {
+    margin: 1em 2.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+}
+.collection {
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.collection .image{
+    display: grid;
+    position: relative;
+}
+.collection .image img:first-child {
+    grid-area: 1/1/1/1;
+    border-radius: 10px 10px 0 0;
+}
+.collection .image h2 {
+    grid-area: 1/1/1/1;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0.5em 0.8em;
+}
+.collection .profileImg {
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    max-width: 60px;
+    border-radius: 50%;
+}
+.collection .text {
+    text-align: center;
+    margin: 3em 0;
+}
+.collection h1 {
+    color: #303336;
+}
+.collection p {
+    color: #7B8591;
+}
