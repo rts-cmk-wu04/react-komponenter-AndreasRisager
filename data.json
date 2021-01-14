@@ -1,0 +1,174 @@
+[
+    {
+        "travel": {
+            "id": "1",
+            "title": "Surfing in Maldives",
+            "text": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
+            "category": "travel",
+            "image": "https://via.placeholder.com/372x236/"
+        }
+    },
+    {
+        "outdoor": {
+            "id": "2",
+            "title": "Outdoor Experience",
+            "text": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
+            "button": "leisure",
+            "images": [{
+                "big_image": "https://via.placeholder.com/293x375",
+                "image_1": "https://via.placeholder.com/300",
+                "image_2": "https://via.placeholder.com/300",
+                "image_3": "https://via.placeholder.com/300"
+            }]
+        }
+    },
+    {
+        "services": [
+            {
+                "id": "3",
+                "title": "on-time delivery",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "image": "https://via.placeholder.com/300",
+                "color": "#005AEE"
+            },
+            {
+                "id": "4",
+                "title": "parcels",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "image": "https://via.placeholder.com/300",
+                "color": "#FFA767"
+            },
+            {
+                "id": "5",
+                "title": "quality check",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "image": "https://via.placeholder.com/300",
+                "color": "#0AACDC"
+            },
+            {
+                "id": "6",
+                "title": "customer service",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "image": "https://via.placeholder.com/300",
+                "color": "#597AEF"
+            }
+        ]
+    },
+    {
+        "collection": [
+            {
+                "id": "7",
+                "title": "Off-the-grid experiences",
+                "collection_number": "Collection #10",
+                "author": "Melanie S.",
+                "images": [{
+                    "image": "https://via.placeholder.com/372x242",
+                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                }]
+            },
+            {
+                "id": "8",
+                "title": "Shapes, triangles & fashion",
+                "collection_number": "Collection #1",
+                "author": "Saraha F.",
+                "images": [{
+                    "image": "https://via.placeholder.com/372x242",
+                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                }]
+            },
+            {
+                "id": "9",
+                "title": "In-depth architecture",
+                "collection_number": "Collection #123",
+                "author": "Benhour",
+                "images": [{
+                    "image": "https://via.placeholder.com/372x242",
+                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                }]
+            }
+        ]
+    },
+    {
+        "gallery": [
+            
+            {
+                "id": "10",
+                "title": "Must see places for winter",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
+                "publisher": "the new york times",
+                "publisher_image": "https://via.placeholder.com/23/FF0000",
+                "big_image": "https://via.placeholder.com/771x475"
+            },
+            {
+                "id": "11",
+                "title": "Must see places in egypt",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
+                "publisher": "the new york times",
+                "publisher_image": "https://via.placeholder.com/23/FF0000",
+                "big_image": "https://via.placeholder.com/771x475"
+            },
+            {
+                "id": "12",
+                "title": "Must see places for summer",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
+                "publisher": "the new york times",
+                "publisher_image": "https://via.placeholder.com/23/FF0000",
+                "big_image": "https://via.placeholder.com/771x475/FF00FF"
+            }
+        ]
+    },
+    {
+        "card_3": [{
+            "id": "13",
+            "headline": "latest news",
+            "button": "more news",
+            "news_cards": [{
+                "card1": [{
+                    "id": "14",
+                    "category": "nature",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                    "image": "https://picsum.photos/300?random=18"
+                }],
+                "card2": [{
+                    "id": "15",
+                    "category": "animal kingdom",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                    "image": "https://picsum.photos/300?random=19"
+                }],
+                "card3": [{
+                    "id": "16",
+                    "category": "technology",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                    "image": "https://picsum.photos/300?random=20"
+                }],
+                "card4": [{
+                    "id": "17",
+                    "category": "explore",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                    "image": "https://picsum.photos/300?random=21"
+                }],
+                "card5": [{
+                    "id": "18",
+                    "category": "africa zoo",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                    "image": "https://picsum.photos/300?random=22"
+                }]
+            }]
+        }]
+    },
+    {
+        "card_4": [{
+                "id": "19",
+                "category": "food &amp; lifestyle",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                "image": "https://picsum.photos/300"
+            },
+            {
+                "id": "20",
+                "category": "fashion",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
+                "image": "https://picsum.photos/300"
+            }
+        ]
+    }
+]
