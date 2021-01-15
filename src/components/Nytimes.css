@@ -1,0 +1,36 @@
+.nytimescards {
+    grid-column: 3/4;
+    grid-row: 5/9;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5em;
+}
+.nytimescard {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 4em 3em;
+}
+.nytimescard .publisher img {
+    width: 44px;
+    margin-right: 1em;
+}
+.nytimescard .publisher {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+.nytimescard a {
+    border-radius: 20px;
+    padding: 0.7em 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nytimescard__text {
+    padding: 3em 0 4em;
+    color: #7B8591;
+}

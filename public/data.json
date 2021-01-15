@@ -5,7 +5,7 @@
             "title": "Surfing in Maldives",
             "text": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
             "category": "travel",
-            "image": "https://via.placeholder.com/372x236/"
+            "image": "./images/maldives.jpg"
         }
     },
     {
@@ -15,10 +15,10 @@
             "text": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
             "button": "leisure",
             "images": [{
-                "big_image": "https://via.placeholder.com/293x375",
-                "image_1": "https://via.placeholder.com/300",
-                "image_2": "https://via.placeholder.com/300",
-                "image_3": "https://via.placeholder.com/300"
+                "big_image": "./images/outdoorbig.jpg",
+                "image_1": "./images/outdoorsmall1.jpg",
+                "image_2": "./images/outdoorsmall2.jpg",
+                "image_3": "./images/outdoorsmall3.jpg"
             }]
         }
     },
@@ -28,28 +28,28 @@
                 "id": "3",
                 "title": "on-time delivery",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                "image": "https://via.placeholder.com/300",
+                "image": "./images/delivery.png",
                 "color": "#005AEE"
             },
             {
                 "id": "4",
                 "title": "parcels",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                "image": "https://via.placeholder.com/300",
+                "image": "./images/parcels.png",
                 "color": "#FFA767"
             },
             {
                 "id": "5",
                 "title": "quality check",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                "image": "https://via.placeholder.com/300",
+                "image": "./images/quality.png",
                 "color": "#0AACDC"
             },
             {
                 "id": "6",
                 "title": "customer service",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                "image": "https://via.placeholder.com/300",
+                "image": "./images/customer.png",
                 "color": "#597AEF"
             }
         ]
@@ -62,8 +62,8 @@
                 "collection_number": "Collection #10",
                 "author": "Melanie S.",
                 "images": [{
-                    "image": "https://via.placeholder.com/372x242",
-                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                    "image": "./images/collection1.jpg",
+                    "profile_image": "./images/person1.jpg"
                 }]
             },
             {
@@ -72,8 +72,8 @@
                 "collection_number": "Collection #1",
                 "author": "Saraha F.",
                 "images": [{
-                    "image": "https://via.placeholder.com/372x242",
-                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                    "image": "./images/collection2.jpg",
+                    "profile_image": "./images/person2.jpg"
                 }]
             },
             {
@@ -82,8 +82,8 @@
                 "collection_number": "Collection #123",
                 "author": "Benhour",
                 "images": [{
-                    "image": "https://via.placeholder.com/372x242",
-                    "profile_image": "https://via.placeholder.com/60/FF0000"
+                    "image": "./images/collection3.jpg",
+                    "profile_image": "./images/person3.jpg"
                 }]
             }
         ]
@@ -95,24 +95,24 @@
                 "title": "Must see places for winter",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
                 "publisher": "the new york times",
-                "publisher_image": "https://via.placeholder.com/23/FF0000",
-                "big_image": "https://via.placeholder.com/771x475"
+                "publisher_image": "./images/nytimes.png",
+                "big_image": "./images/gallery3.jpg"
             },
             {
                 "id": "11",
                 "title": "Must see places in egypt",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
                 "publisher": "the new york times",
-                "publisher_image": "https://via.placeholder.com/23/FF0000",
-                "big_image": "https://via.placeholder.com/771x475/A5FC26"
+                "publisher_image": "./images/nytimes.png",
+                "big_image": "./images/gallery2.jpg"
             },
             {
                 "id": "12",
                 "title": "Must see places for summer",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
                 "publisher": "the new york times",
-                "publisher_image": "https://via.placeholder.com/23/FF0000",
-                "big_image": "https://via.placeholder.com/771x475/FF00FF"
+                "publisher_image": "./images/nytimes.png",
+                "big_image": "./images/gallery1.jpg"
             }
         ]
     },
@@ -123,35 +123,35 @@
                 "category": "nature",
                 "categoryColor": "#40BE65",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/127x122"
+                "image": "./images/latest1.jpg"
             },
             {
                 "id": "14",
                 "category": "animal kingdom",
                 "categoryColor": "#0072CA",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/127x122"
+                "image": "./images/latest2.jpg"
             },
             {
                 "id": "15",
                 "category": "technology",
                 "categoryColor": "#D9A34A",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/127x122"
+                "image": "./images/latest3.jpg"
             },
             {
                 "id": "16",
                 "category": "explore",
                 "categoryColor": "#FF4967",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/127x122"
+                "image": "./images/latest4.jpg"
             },
             {
                 "id": "17",
                 "category": "africa zoo",
                 "categoryColor": "#0072CA",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/127x122"
+                "image": "./images/latest5.jpg"
             }
         ]
     },
@@ -162,14 +162,14 @@
                 "category": "food & lifestyle",
                 "categoryColor": "#E44385",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/141x137"
+                "image": "./images/newscard1.jpg"
             },
             {
                 "id": "19",
                 "category": "fashion",
                 "categoryColor": "#0AACDC",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
-                "image": "https://via.placeholder.com/141x137"
+                "image": "./images/newscard2.jpg"
             }
         ]
     },
@@ -180,28 +180,28 @@
                 "category": "Architecture",
                 "categoryColor": "#FFD430",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas ",
-                "image": "https://via.placeholder.com/372x175"
+                "image": "./images/imagecard1.jpg"
             },
             {
                 "id": "21",
                 "category": "Travel & leisure",
                 "categoryColor": "#D0E2FF",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas ",
-                "image": "https://via.placeholder.com/372x175"
+                "image": "./images/imagecard2.jpg"
             },
             {
                 "id": "22",
                 "category": "Greenery",
                 "categoryColor": "#FFFFFF",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas ",
-                "image": "https://via.placeholder.com/372x175"
+                "image": "./images/imagecard3.jpg"
             },
             {
                 "id": "23",
                 "category": "Beaches",
                 "categoryColor": "#FFFFFF",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas ",
-                "image": "https://via.placeholder.com/372x175"
+                "image": "./images/imagecard4.jpg"
             }
         ]
     },
@@ -211,7 +211,79 @@
                 "id": "24",
                 "title": "Virtual reality",
                 "category": "technology",
-                "image": "https://via.placeholder.com/372x371"
+                "image": "./images/virtual.jpg"
+            }
+        ]
+    },
+    {
+        "iconcard": [
+            {
+                "id": "25",
+                "title": "design",
+                "image": "./images/design.png",
+                "color": "#53BBB3"
+            },
+            {
+                "id": "26",
+                "title": "education",
+                "image": "./images/education.png",
+                "color": "#358ED7"
+            }
+        ]
+    },
+    {
+        "digest": [
+            {
+                "id": "27",
+                "number": "1",
+                "title": "technology",
+                "color": "#D9A34A",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit"
+            },
+            {
+                "id": "28",
+                "number": "2",
+                "title": "nature",
+                "color": "#007AC2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit"
+            },
+            {
+                "id": "29",
+                "number": "3",
+                "title": "design",
+                "color": "#3CA773",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit"
+            },
+            {
+                "id": "30",
+                "number": "4",
+                "title": "development",
+                "color": "#53BBB3",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit"
+            }
+        ]
+    },
+    {
+        "nytimes": [
+            {
+                "id": "31",
+                "logo": "./images/nytimes.png",
+                "publisher":"the new york times",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
+                "button": "read more",
+                "buttonColor": "#358ED7",
+                "buttonBorder": "1px solid #EBEBEB",
+                "background_image": ""
+            },
+            {
+                "id": "32",
+                "logo": "./images/nytimes.png",
+                "publisher":"the new york times",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
+                "button": "read more",
+                "buttonColor": "#303336",
+                "buttonBorder": "1px solid #7B8591",
+                "background_image": "./images/nytimescard.jpg"
             }
         ]
     }

@@ -9,6 +9,9 @@ import Latestnews from './components/Latestnews';
 import Newscard from './components/Newscard';
 import Imagecard from './components/Imagecard';
 import VR from './components/VR';
+import Iconcard from './components/Iconcard';
+import Digest from './components/Digest';
+import Nytimes from './components/Nytimes';
 
 function App() {
   var [results, setResult] = useState([])
@@ -37,6 +40,9 @@ function App() {
         <Newscard results={results}/>
         <Imagecard results={results}/>
         <VR result={results}/>
+        <Iconcard results={results}/>
+        <Digest results={results}/>
+        <Nytimes results={results}/>
       </div>
       
     

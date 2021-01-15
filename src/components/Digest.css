@@ -1,0 +1,38 @@
+.digest {
+    grid-column: 2/3;
+    grid-row: 5/9;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+.digest h1 {
+    background-color: #3CA773;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 0.7em;
+    font-size: 1.2em;
+    border-radius: 10px 10px 0 0;
+}
+.newsDigest .bulletpoint{
+    padding: 0.4em 0.8em;
+    border-radius: 50%;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.newsDigest {
+    margin: 2.8em 3em;
+}
+.newsDigest +* {
+    border-top: 1px solid #7b859141;
+    padding-top: 2.8em;
+}
+.newsDigest h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0.9em 0 0.5em;
+    font-weight: 400;
+}
+.newsDigest p {
+    color: #7B8591;
+}
